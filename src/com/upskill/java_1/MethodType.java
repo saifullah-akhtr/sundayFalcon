@@ -8,7 +8,7 @@ public class MethodType extends Variables {
 	// STATIC METHOD
 	// RETURN TYPE METHOD
 	
-	public static int hourlyIncome = 65;
+	public static int hourlyIncome = 70;
 
 	public static void main(String[] args) {
 		
