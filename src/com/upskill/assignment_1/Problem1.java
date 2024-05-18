@@ -7,7 +7,7 @@ public class Problem1 {
 		mymethod1();
 	}
 		public static void mymethod1() {
-		int a=5;
+		int a=10;
 		int b=7;
 		int c=11;
 		int perimeter=a+b+c;
