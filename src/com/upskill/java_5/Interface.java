@@ -23,5 +23,6 @@ Class						extends			         class
 Abstract Class(3)   	    extends                  class(3-3=0)
 Interface(+3)				implements               class(3-3=0)
 Interface(+3)				extends                  interface(+3+3=6)    implements              Class(6-6=0)
-
+Interface                   implements               AbstractClass
+AbstractClass               extends                  Interface            implements              Class
 */

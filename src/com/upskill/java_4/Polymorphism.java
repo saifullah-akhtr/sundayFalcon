@@ -10,7 +10,9 @@ public class Polymorphism extends MethodType{
 		- Method Overloading (Compile time Polymorphism/Static binding) Same method name with different signature to overload
 		- Method Overridding (Runtime Polymorphism/Dynamic binding) Same method name from Parent class to override
 	*/
-		car(5,7);
+		car();
+		car("red",4);
+		car(7);
 		
 		Polymorphism obj = new Polymorphism();
 		obj.annualIncomeVoid();
@@ -26,20 +28,15 @@ public class Polymorphism extends MethodType{
 	public static void car() {
 		System.out.println("My Car is Tesla");
 	}
-	public static void car(int door) {
-		System.out.println("My Car is Tesla, It has door :" + door);
+	public static void car(String color, int door) {
+		System.out.println("My Car is Tesla, Color is " + color + " It has " + door +  " doors ");
 	}
-	public static void car(String color) {
-		System.out.println("My Car is Tesla, It has color: " + color);
+	public static void car(int seat) {
+		System.out.println( "It has a seat: " + seat);
 	}
 	public static void car(Boolean dualMotor) {
 		System.out.println("My Car is Tesla, It has dualMotor: " + dualMotor);
 	}
-	public static void car(String bodyType, int seat) {
-		System.out.println("My Car is Tesla, It has bodyType: " + bodyType +   " " + "It has a seat: " + seat);
-	}
-	public static void car(int door, int seat) {
-		System.out.println("My Car is Tesla, It has door: " + door +   " " + "It has a seat: " + seat);
-	}
+	
 
 }
